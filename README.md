@@ -9,4 +9,5 @@
 * commit and push to github
 * create model POJOs
 * implement interfaces for services
+* add Long id to all model classes through extending from created class with only Id
 * 
