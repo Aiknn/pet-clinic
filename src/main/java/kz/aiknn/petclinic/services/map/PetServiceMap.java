@@ -1,11 +1,11 @@
 package kz.aiknn.petclinic.services.map;
 
 import kz.aiknn.petclinic.model.Pet;
-import kz.aiknn.petclinic.services.CrudService;
+import kz.aiknn.petclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
         return super.findAll();
