@@ -2,9 +2,11 @@ package kz.aiknn.petclinic.services.map;
 
 import kz.aiknn.petclinic.model.Vet;
 import kz.aiknn.petclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
